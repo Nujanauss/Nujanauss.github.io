@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/alexplatt/01_translation.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alexplatt/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/tiles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/allposts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/landing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-8-20-etiam.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-8-21-consequat.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-8-22-ipsum.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-8-23-magna.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-8-24-tempus.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-8-25-aliquam.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/base/_page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/base/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_box.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_contact-method.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_icon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_spotlights.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_table.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_tiles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_banner.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_wrapper.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/libs/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/libs/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/libs/_skel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/libs/_vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_posts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ie8.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ie9.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/forty.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pic01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pic02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pic03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pic04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pic05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pic06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pic07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pic08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pic09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pic10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pic11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ie/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ie/backgroundsize.min.htc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ie/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ie/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.scrollex.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.scrolly.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/skel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forty_jekyll_theme.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="M:\program-files\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1o9uO4ukAlTdJviyuxkUVczSbMh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="" />
+      <created>1612711091802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612711091802</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Use forty-jekyll-theme">
+      <created>1612711457266</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612711457266</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Attempt to get it running">
+      <created>1612711835321</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612711835321</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Use forty-jekyll-theme" />
+    <MESSAGE value="Attempt to get it running" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempt to get it running" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="264" y="40" key="CommitChangelistDialog2" timestamp="1612711832581">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="264" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1612711832581" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1612711837425">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1612711837425" />
+    <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1612723808920">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="347" y="113" width="587" height="534" key="find.popup/0.40.1280.680@0.40.1280.680" timestamp="1612723808920" />
+    <state x="297" y="171" key="run.anything.popup" timestamp="1612724381687">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="297" y="171" key="run.anything.popup/0.40.1280.680@0.40.1280.680" timestamp="1612724381687" />
+  </component>
+</project>
