@@ -1,27 +1,25 @@
 <footer class="site-footer h-card">
-    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+    <data class="u-url" href="/"></data>
 
     <div class="wrapper">
 
-        <div class="footer-col-wrapper">
-            <div class="footer-col">
-                <p class="feed-subscribe">
-                    <a href="{{ 'feed.xml' | relative_url }}">
+        <h2 class="footer-heading"></h2>
 
-                    </a>
-                </p>
-                {%- if site.author %}
+        <div class="footer-col-wrapper">
+            <div class="footer-col footer-col-1">
                 <ul class="contact-list">
-                    {% if site.author.name -%}
-                    <li class="p-name">{{ site.author.name | escape }}</li>
-                    {% endif -%}
-                    {% if site.author.email -%}
-                    <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-                    {%- endif %}
-                </ul>
-                {%- endif %}
+                    <li class="p-name">Designed by Alex Platt</li></ul>
             </div>
-            <div class="footer-col">
+
+            <div class="footer-col footer-col-2">
+                <ul style="list-style-type:none">
+                    <svg class="svg-icon orange">
+                        <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+                    </svg>
+                </ul>
+            </div>
+
+            <div class="footer-col footer-col-3">
                 <p>{{ site.description | escape }}</p>
             </div>
         </div>

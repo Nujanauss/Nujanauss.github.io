@@ -23,11 +23,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   The path between heaven and hell is paved with decisions. I am interested in why we make
   these decisions, and how we can make better ones.
 
-  This website uses Jekyll under the
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-linkedin: platt-alex
+social links:
+  github: Nujanauss
+  linkedin: platt-alex
+
 # Build settings
 theme: minima
 plugins:

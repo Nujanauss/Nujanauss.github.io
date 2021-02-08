@@ -2,96 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alexplatt/01_translation.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alexplatt/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/FUNDING.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/tiles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/allposts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/landing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-8-20-etiam.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-8-21-consequat.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-8-22-ipsum.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-8-23-magna.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-8-24-tempus.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-8-25-aliquam.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/base/_page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/base/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/_box.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/_button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/_contact-method.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/_form.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/_icon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/_image.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/_section.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/_spotlights.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/_table.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/_tiles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/layout/_banner.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/layout/_contact.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/layout/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/layout/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/layout/_main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/layout/_menu.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/layout/_wrapper.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/libs/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/libs/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/libs/_skel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/libs/_vars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/all_posts.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ie8.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ie9.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/forty.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/pic01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/pic02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/pic03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/pic04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/pic05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/pic06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/pic07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/pic08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/pic09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/pic10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/pic11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/.directory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/backgroundsize.min.htc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/html5shiv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/respond.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.scrollex.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.scrolly.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/skel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forty_jekyll_theme.gemspec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/alexplatt/02_software.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alexplatt/03_academia.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alexplatt/_layouts/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/02_contact.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/04_contact.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/index.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/index.markdown" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,8 +34,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io" />
     </key>
@@ -145,23 +67,43 @@
       <option name="project" value="LOCAL" />
       <updated>1612711835321</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Start new plain project with a little customisation">
+      <created>1612725531813</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612725531813</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Use forty-jekyll-theme" />
     <MESSAGE value="Attempt to get it running" />
-    <option name="LAST_COMMIT_MESSAGE" value="Attempt to get it running" />
+    <MESSAGE value="Start new plain project with a little customisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start new plain project with a little customisation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="264" y="40" key="CommitChangelistDialog2" timestamp="1612711832581">
+    <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="264" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1612711832581" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1612711837425">
+    <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1280.680@0.40.1280.680" timestamp="1612813849050" />
+    <state x="407" y="183" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612726919935">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1612711837425" />
+    <state x="407" y="183" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1280.680@0.40.1280.680" timestamp="1612726919935" />
+    <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1612726586600">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
+    <state x="264" y="40" key="CommitChangelistDialog2" timestamp="1612725528908">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="264" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1612725528908" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1612725546284">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1612725546284" />
     <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1612723808920">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
