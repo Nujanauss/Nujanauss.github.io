@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alexplatt/02_software.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alexplatt/03_academia.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alexplatt/_layouts/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alexplatt/assets/minima-social-icons.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/02_contact.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/04_contact.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/index.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/index.markdown" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +70,22 @@
       <option name="project" value="LOCAL" />
       <updated>1612725531813</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add other pages and change footer">
+      <created>1612817105584</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612817105584</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Use forty-jekyll-theme" />
     <MESSAGE value="Attempt to get it running" />
     <MESSAGE value="Start new plain project with a little customisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start new plain project with a little customisation" />
+    <MESSAGE value="Add other pages and change footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add other pages and change footer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
@@ -96,14 +100,14 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="264" y="40" key="CommitChangelistDialog2" timestamp="1612725528908">
+    <state x="264" y="40" key="CommitChangelistDialog2" timestamp="1612817101276">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="264" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1612725528908" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1612725546284">
+    <state x="264" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1612817101276" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1612817110644">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1612725546284" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1612817110644" />
     <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1612723808920">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
