@@ -6,6 +6,11 @@ a {
   position: relative;
   text-decoration: none;
 
+  &:active, &:focus {
+    outline: none;
+    border: 0;
+  }
+
   &:hover {
     text-decoration: none;
   }

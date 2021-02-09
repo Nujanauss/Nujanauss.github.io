@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/alexplatt/_includes/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alexplatt/assets/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alexplatt/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alexplatt/assets/text.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/_layouts/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/index.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/index.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/01_translation.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/01_translation.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/assets/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612819824286</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Custom animated underlines in header">
+      <created>1612900622545</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612900622545</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -99,7 +107,8 @@
     <MESSAGE value="Start new plain project with a little customisation" />
     <MESSAGE value="Add other pages and change footer" />
     <MESSAGE value="Improve footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve footer" />
+    <MESSAGE value="Custom animated underlines in header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Custom animated underlines in header" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
@@ -114,13 +123,15 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="264" y="40" key="CommitChangelistDialog2" timestamp="1612819820918">
-      <screen x="0" y="40" width="1280" height="680" />
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1612900616708">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1612900616708" />
     <state x="264" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1612819820918" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1612819826399">
-      <screen x="0" y="40" width="1280" height="680" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1612900625726">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612900625726" />
     <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1612819826399" />
     <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1612894514188">
       <screen x="0" y="40" width="1280" height="680" />
