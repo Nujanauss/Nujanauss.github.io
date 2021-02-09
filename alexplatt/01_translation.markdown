@@ -40,7 +40,9 @@ Feel free to <a href="/contact/" title="Contact Alex">get in touch</a>!
 
 <a class="tab" href="https://florian.sesser.at/">Florian Sesser</a> 
 <blockquote>
-Alex is very good writing, isn't it amazing!
+Making text about complex subjects a pleasure to read is an art, and requires tremendous skill in
+multiple disciplines. Alex is a master at effective communication, and always a pleasure to work with. Highly
+recommended.
 </blockquote>
 
 <a class="tab" href="https://www.plantura.garden/">Laurence Orgeret</a> 
