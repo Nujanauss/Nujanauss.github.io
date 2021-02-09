@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alexplatt/assets/minima-social-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alexplatt/_includes/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alexplatt/assets/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/_layouts/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/index.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/index.markdown" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,15 +30,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/alexplatt/_sass" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\_sass" />
+      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\_includes" />
+      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\assets" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -77,15 +80,26 @@
       <option name="project" value="LOCAL" />
       <updated>1612817105584</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Improve footer">
+      <created>1612819824286</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612819824286</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Use forty-jekyll-theme" />
     <MESSAGE value="Attempt to get it running" />
     <MESSAGE value="Start new plain project with a little customisation" />
     <MESSAGE value="Add other pages and change footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add other pages and change footer" />
+    <MESSAGE value="Improve footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve footer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
@@ -100,18 +114,18 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="264" y="40" key="CommitChangelistDialog2" timestamp="1612817101276">
+    <state x="264" y="40" key="CommitChangelistDialog2" timestamp="1612819820918">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="264" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1612817101276" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1612817110644">
+    <state x="264" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1612819820918" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1612819826399">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1612817110644" />
-    <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1612723808920">
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1612819826399" />
+    <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1612894514188">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="347" y="113" width="587" height="534" key="find.popup/0.40.1280.680@0.40.1280.680" timestamp="1612723808920" />
+    <state x="347" y="113" width="587" height="534" key="find.popup/0.40.1280.680@0.40.1280.680" timestamp="1612894514188" />
     <state x="297" y="171" key="run.anything.popup" timestamp="1612724381687">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
