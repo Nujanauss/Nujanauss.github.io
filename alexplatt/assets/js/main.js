@@ -40,6 +40,7 @@ TxtRotate.prototype.tick = function() {
 };
 
 window.onload = function() {
+  splitWords();
   var elements = document.getElementsByClassName('txt-rotate');
   for (var i=0; i<elements.length; i++) {
     var toRotate = elements[i].getAttribute('data-rotate');
@@ -49,3 +50,40 @@ window.onload = function() {
     }
   }
 };
+
+function fadeWords(quotewords) {
+  Array.prototype.forEach.call(quotewords, function(word) {
+    let animate = word.animate([{
+      opacity: 0,
+      filter: "blur("+getRandom(2,5)+"px)"
+    }, {
+      opacity: 1,
+      filter: "blur(0px)"
+    }],
+    {
+      duration: 1000,
+      delay: getRandom(500,1000),
+      fill: "forwards"
+    }
+   )
+  })
+}
+
+function getRandom(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+function splitWords() {
+  let quote = document.querySelector("blockquote"),
+  quotewords = quote.innerText.split(" "),
+  wordCount = quotewords.length;
+  quote.innerHTML = "";
+  for (let i=0; i < wordCount; i++) {
+    quote.innerHTML += "<span>"+quotewords[i]+"</span>";
+    if (i < quotewords.length - 1) {
+      quote.innerHTML += " ";
+    }
+  }
+  quotewords = document.querySelectorAll("blockquote span");
+  fadeWords(quotewords);
+}

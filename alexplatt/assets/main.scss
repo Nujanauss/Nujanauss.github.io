@@ -2,6 +2,23 @@
 ---
 @import "minima";
 
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  padding: 5px 3px 2px 5px;
+  vertical-align: text-top;
+  text-color: red;
+}
+
+.site-header {
+  position: fixed;
+  background-color: ghostwhite;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+}
+
 a {
   position: relative;
   text-decoration: none;
@@ -42,7 +59,26 @@ a:hover:before {
   transform: scaleX(1);
 }
 
+.social-media-list
+a:link {
+  bottom: 20px;
+  font-size:0;
+}
+
+// hacking because minima has got dependencies I can't work out
+.social-media-list
+a:link:hover:before {
+  visibility: hidden;
+}
+
 
 body {
-    background-color: aliceblue;
+  padding: 85px 0 0;  // padding-top equal to masthead height or greater
+  background-color: ghostwhite;
+}
+
+blockquote span {
+  will-change: opacity, filter;
+  opacity: 0;
+  filter: blur(0px);
 }

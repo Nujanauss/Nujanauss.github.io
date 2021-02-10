@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alexplatt/assets/js/particles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alexplatt/assets/particles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/01_translation.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/01_translation.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/assets/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612908649441</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Florian testimony">
+      <created>1612910271669</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612910271669</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -122,7 +128,8 @@
     <MESSAGE value="Custom animated underlines in header" />
     <MESSAGE value="Working animation on translate" />
     <MESSAGE value="Nice improvement with translation page (which now isn't)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nice improvement with translation page (which now isn't)" />
+    <MESSAGE value="Florian testimony" />
+    <option name="LAST_COMMIT_MESSAGE" value="Florian testimony" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
@@ -137,23 +144,23 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="264" y="40" key="CommitChangelistDialog2" timestamp="1612908645301">
+    <state x="264" y="40" key="CommitChangelistDialog2" timestamp="1612910268928">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1612900616708" />
-    <state x="264" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1612908645301" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1612908656573">
+    <state x="264" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1612910268928" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1612910273416">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612900625726" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1612908656573" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1612910273416" />
     <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1612894514188">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="347" y="113" width="587" height="534" key="find.popup/0.40.1280.680@0.40.1280.680" timestamp="1612894514188" />
-    <state x="297" y="171" key="run.anything.popup" timestamp="1612724381687">
+    <state x="297" y="171" key="run.anything.popup" timestamp="1612973718659">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="297" y="171" key="run.anything.popup/0.40.1280.680@0.40.1280.680" timestamp="1612724381687" />
+    <state x="297" y="171" key="run.anything.popup/0.40.1280.680@0.40.1280.680" timestamp="1612973718659" />
   </component>
 </project>
