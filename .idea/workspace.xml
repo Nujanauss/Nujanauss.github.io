@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/01_translation.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/01_translation.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/_layouts/no-title-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_layouts/no-title-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/02_software.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/02_software.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/assets/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/index.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/index.markdown" afterDir="false" />
@@ -125,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612976380144</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Nice fade in for testimonials">
+      <created>1613065057790</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613065057790</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -142,7 +147,8 @@
     <MESSAGE value="Nice improvement with translation page (which now isn't)" />
     <MESSAGE value="Florian testimony" />
     <MESSAGE value="Fix footer and begin with animation of quotes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix footer and begin with animation of quotes" />
+    <MESSAGE value="Nice fade in for testimonials" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nice fade in for testimonials" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
@@ -157,20 +163,24 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="264" y="40" key="CommitChangelistDialog2" timestamp="1612976377773">
+    <state x="264" y="40" key="CommitChangelistDialog2" timestamp="1613065054297">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1612900616708" />
-    <state x="264" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1612976377773" />
+    <state x="264" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1613065054297" />
+    <state x="370" y="83" key="RollbackChangesDialog" timestamp="1613065044334">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="370" y="83" key="RollbackChangesDialog/0.40.1280.680@0.40.1280.680" timestamp="1613065044334" />
     <state x="142" y="40" key="SettingsEditor" timestamp="1612991134204">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="142" y="40" key="SettingsEditor/0.40.1280.680@0.40.1280.680" timestamp="1612991134204" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1612976386071">
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1613065060222">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612900625726" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1612976386071" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1613065060222" />
     <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1612977827669">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
@@ -179,9 +189,9 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="297" y="171" key="run.anything.popup/0.40.1280.680@0.40.1280.680" timestamp="1612973718659" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1612994084325">
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1613067679734">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.40.1280.680@0.40.1280.680" timestamp="1612994084325" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.40.1280.680@0.40.1280.680" timestamp="1613067679734" />
   </component>
 </project>

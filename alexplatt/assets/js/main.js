@@ -50,8 +50,6 @@ window.onload = function() {
   }
 };
 
-$(document).ready(function () {
-
 $(window).on("load",function() {
   $(window).scroll(function() {
     var windowBottom = $(this).scrollTop() + $(this).innerHeight();
@@ -67,5 +65,4 @@ $(window).on("load",function() {
       }
     });
   }).scroll(); //invoke scroll-handler on page-load
-});
 });
