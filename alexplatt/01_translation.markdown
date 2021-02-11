@@ -15,7 +15,6 @@ permalink: /copy/
      data-rotate='[ "hard.", "difficult.", "challenging." ]'>
      </span>
 </h1>
-<script type="text/javascript" src="/assets/js/main.js" ></script>
 
 <h4>Have someone on your side.</h4>
 
@@ -38,14 +37,18 @@ Feel free to <a href="/contact/" title="Contact Alex">get in touch</a>!
 
 <h4>Testimonials</h4>
 
+<div class="testimonial">
 <a class="tab" href="https://florian.sesser.at/">Florian Sesser</a> 
-<blockquote>
+<blockquote id="florian">
 Making text about complex subjects a pleasure to read is an art, and requires tremendous skill in
 multiple disciplines. Alex is a master at effective communication, and always a pleasure to work with. Highly
 recommended.
 </blockquote>
+</div>
 
+<div class="testimonial">
 <a class="tab" href="https://www.plantura.garden/">Laurence Orgeret</a> 
-<blockquote>
+<blockquote class="testimonial" id="laurence">
 I totally agree with Florian Sesser; Alex is a very good writer!
 </blockquote> 
+</div>

@@ -77,8 +77,6 @@ body {
   background-color: ghostwhite;
 }
 
-blockquote span {
-  will-change: opacity, filter;
-  opacity: 0;
-  filter: blur(0px);
+.testimonial {
+  opacity: 1;
 }

@@ -40,7 +40,6 @@ TxtRotate.prototype.tick = function() {
 };
 
 window.onload = function() {
-  splitWords();
   var elements = document.getElementsByClassName('txt-rotate');
   for (var i=0; i<elements.length; i++) {
     var toRotate = elements[i].getAttribute('data-rotate');
@@ -51,39 +50,22 @@ window.onload = function() {
   }
 };
 
-function fadeWords(quotewords) {
-  Array.prototype.forEach.call(quotewords, function(word) {
-    let animate = word.animate([{
-      opacity: 0,
-      filter: "blur("+getRandom(2,5)+"px)"
-    }, {
-      opacity: 1,
-      filter: "blur(0px)"
-    }],
-    {
-      duration: 1000,
-      delay: getRandom(500,1000),
-      fill: "forwards"
-    }
-   )
-  })
-}
+$(document).ready(function () {
 
-function getRandom(min, max) {
-  return Math.random() * (max - min) + min;
-}
+$(window).on("load",function() {
+  $(window).scroll(function() {
+    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    $(".testimonial").each(function() {
+      /* Check the location of each desired element */
+      var objectBottom = $(this).offset().top + $(this).outerHeight();
 
-function splitWords() {
-  let quote = document.querySelector("blockquote"),
-  quotewords = quote.innerText.split(" "),
-  wordCount = quotewords.length;
-  quote.innerHTML = "";
-  for (let i=0; i < wordCount; i++) {
-    quote.innerHTML += "<span>"+quotewords[i]+"</span>";
-    if (i < quotewords.length - 1) {
-      quote.innerHTML += " ";
-    }
-  }
-  quotewords = document.querySelectorAll("blockquote span");
-  fadeWords(quotewords);
-}
+      /* If the element is completely within bounds of the window, fade it in */
+      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+        if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+      } else { //object goes out of view (scrolling up)
+        if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+      }
+    });
+  }).scroll(); //invoke scroll-handler on page-load
+});
+});
