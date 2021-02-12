@@ -19,6 +19,10 @@
   width: 100%;
 }
 
+.site-footer {
+  background-color: ghostwhite;
+}
+
 a {
   position: relative;
   text-decoration: none;
@@ -74,7 +78,7 @@ a:link:hover:before {
 
 body {
   padding: 85px 0 0;  // padding-top equal to masthead height or greater
-  background-color: ghostwhite;
+  background-image: linear-gradient(#FBFBFF, ghostwhite);
 }
 
 .testimonial {
@@ -98,7 +102,7 @@ body {
 }
 
 #overall {
-  animation-delay: 3s;
+  animation-delay: 5s;
 }
 
 @keyframes fadeIn {
@@ -109,4 +113,12 @@ body {
   to {
     opacity: 1;
   }
+}
+
+#particle-canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #FBFBFF;
+  z-index: -999;
 }
