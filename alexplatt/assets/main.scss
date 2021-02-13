@@ -13,14 +13,15 @@
 
 .site-header {
   position: fixed;
-  background-color: ghostwhite;
+  background: #fcfcfc;
+  background: radial-gradient(circle, #fcfcfc 70%, #d6d6d6 100%);
   top: 0;
   z-index: 5;
   width: 100%;
 }
 
 .site-footer {
-  background-color: ghostwhite;
+  background-color: #fcfcfc;
 }
 
 a {
@@ -45,12 +46,12 @@ a {
     }
 }
 
-a:before {
+.page-link:before {
   content: "";
   position: absolute;
   width: 100%;
   height: 0.5px;
-  bottom: 0;
+  bottom: -5px;
   left: 0;
   background-color: black;
   visibility: hidden;
@@ -58,9 +59,9 @@ a:before {
   transition: all 0.3s ease-in-out;
 }
 
-a:hover:before {
+.page-link:hover:before {
   visibility: visible;
-  transform: scaleX(1);
+  transform: scaleX(0.4);
 }
 
 .social-media-list
@@ -69,16 +70,16 @@ a:link {
   font-size:0;
 }
 
-// hacking because minima has got dependencies I can't work out
-.social-media-list
-a:link:hover:before {
-  visibility: hidden;
-}
-
-
 body {
   padding: 85px 0 0;  // padding-top equal to masthead height or greater
-  background-image: linear-gradient(#FBFBFF, ghostwhite);
+  background-image: url("fog.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .testimonial {
@@ -121,4 +122,14 @@ body {
   height: 100%;
   background: #FBFBFF;
   z-index: -999;
+}
+
+.studied a img {
+  float: left;
+}
+
+.studied h1 {
+  position: relative;
+  display:inline-block;
+  left: 20px;
 }
