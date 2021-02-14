@@ -103,7 +103,17 @@ body {
 }
 
 #overall {
-  animation-delay: 5s;
+  animation-delay: 3s;
+}
+
+.show {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.hide {
+  opacity: 0;
+  transition: opacity 500ms;
 }
 
 @keyframes fadeIn {
@@ -132,4 +142,26 @@ body {
   position: relative;
   display:inline-block;
   left: 20px;
+}
+
+.axisHorizontal path {
+  display: none;
+}
+
+.axisVertical path {
+  display: none;
+}
+
+.bar {
+  fill: #828282;
+  fill-opacity: .9;
+}
+
+text.label {
+  fill: ghostwhite;
+}
+
+
+:is(h1, h2, h3, h4, h5, h6), p {
+  color: #36454f;
 }

@@ -1,7 +1,17 @@
 ---
-layout: no-title-page
+layout: software
 title: Software
 permalink: /software/
 ---
 
-<h1>Experience in the following languages:</h1>
+# Experience in the following languages:
+
+{::nomarkdown}
+<svg class="icon">
+   <use xlink:href="/assets/programming-logos.svg#java" />
+</svg>
+<svg class="icon">
+   <use xlink:href="/assets/programming-logos.svg#javascript" />
+</svg>
+
+{:/}

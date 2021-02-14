@@ -39,30 +39,32 @@ TxtRotate.prototype.tick = function() {
   }, delta);
 };
 
-window.onload = function() {
+window.addEventListener("load", function() {
   var elements = document.getElementsByClassName('txt-rotate');
-  for (var i=0; i<elements.length; i++) {
+  for (var i = 0; i < elements.length; i++) {
     var toRotate = elements[i].getAttribute('data-rotate');
     var period = elements[i].getAttribute('data-period');
     if (toRotate) {
       new TxtRotate(elements[i], JSON.parse(toRotate), period);
     }
   }
-};
+});
 
-$(window).on("load",function() {
-  $(window).scroll(function() {
-    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
-    $(".testimonial").each(function() {
+
+window.onscroll = function(ev) {
+    var windowBottom = window.scrollY + window.innerHeight;
+    document.querySelectorAll(".testimonial").forEach(testimonial => {
       /* Check the location of each desired element */
-      var objectBottom = $(this).offset().top + $(this).outerHeight();
+      var rect = testimonial.getBoundingClientRect();
+      var objectBottom = rect.bottom + 100; //some magic fucking number to get this to work
 
       /* If the element is completely within bounds of the window, fade it in */
       if (objectBottom < windowBottom) { //object comes into view (scrolling down)
-        if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
-      } else { //object goes out of view (scrolling up)
-        if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+          testimonial.classList.add("show");
+          testimonial.classList.remove("hide");
+      } else { //object goes out of view (scrolling up
+          testimonial.classList.add("hide");
+          testimonial.classList.remove("show");
       }
     });
-  }).scroll(); //invoke scroll-handler on page-load
-});
+};

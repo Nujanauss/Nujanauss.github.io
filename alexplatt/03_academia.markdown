@@ -15,7 +15,7 @@ permalink: /academia/
 <br>
 <p>
 Mathematical modelling and software development are tools. In studying psychology, I look to acquaint myself
- with human behaviour. In this way, my use of these tools may be human-centred.   
+ with human behaviour. In this way, I can be human-centred and not tool-centred.   
 </p>
 <p>
 My thesis concerns how and when medical practitioners fail to value informative evidence. 

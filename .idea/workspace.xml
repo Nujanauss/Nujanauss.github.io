@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/alexplatt/_layouts/software.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/alexplatt/assets/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alexplatt/assets/fog.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/alexplatt/assets/home-grass.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alexplatt/assets/notts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alexplatt/assets/ucl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alexplatt/assets/js/bar-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alexplatt/assets/programming-logos.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/01_translation.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/01_translation.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/02_software.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/02_software.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/03_academia.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/03_academia.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/_layouts/no-title-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_layouts/no-title-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/assets/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613152682292</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add images and update academia page">
+      <created>1613236843783</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1613236843783</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -167,7 +181,9 @@
     <MESSAGE value="Nice fade in for testimonials" />
     <MESSAGE value="Fading intro, fixed buggy testimonials" />
     <MESSAGE value="Add particles js in case I ever think of a reason to use it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add particles js in case I ever think of a reason to use it" />
+    <MESSAGE value="Add images and update academia page" />
+    <MESSAGE value="Remove jquery add in d3 bar chart. May be worth keeping jquery cos it worked better for some reason" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove jquery add in d3 bar chart. May be worth keeping jquery cos it worked better for some reason" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
@@ -182,11 +198,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="264" y="40" key="CommitChangelistDialog2" timestamp="1613152679189">
+    <state x="264" y="40" key="CommitChangelistDialog2" timestamp="1613236839623">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1612900616708" />
-    <state x="264" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1613152679189" />
+    <state x="264" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1613236839623" />
     <state x="370" y="83" key="RollbackChangesDialog" timestamp="1613065044334">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
@@ -195,15 +211,15 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="142" y="40" key="SettingsEditor/0.40.1280.680@0.40.1280.680" timestamp="1612991134204" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1613152684600">
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1613236845730">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612900625726" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1613152684600" />
-    <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1613069691212">
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1613236845730" />
+    <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1613253972927">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="347" y="113" width="587" height="534" key="find.popup/0.40.1280.680@0.40.1280.680" timestamp="1613069691212" />
+    <state x="347" y="113" width="587" height="534" key="find.popup/0.40.1280.680@0.40.1280.680" timestamp="1613253972927" />
     <state x="297" y="171" key="run.anything.popup" timestamp="1612973718659">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
