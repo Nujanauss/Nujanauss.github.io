@@ -48,8 +48,8 @@ recommended.
 <div class="testimonial">
 <a class="tab" href="https://www.plantura.garden/">Laurence Orgeret</a> 
 <blockquote>
-Making text about complex subjects a pleasure to read is an art, and requires tremendous skill in
-multiple disciplines. Alex is a master at effective communication, and always a pleasure to work with. Highly
-recommended.
+I really enjoy working with Alex. He has an eloquent style and I know I can count on his expertise for a
+ wide range of topics. He consistently produces work of a high standard regardless of the topic at hand.
+  Furthermore, his friendly manner makes him a pleasure to work with.
 </blockquote> 
 </div>

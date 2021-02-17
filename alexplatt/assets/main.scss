@@ -21,7 +21,7 @@
 }
 
 .site-footer {
-  background-color: #fcfcfc;
+  background: linear-gradient(#d6d6d6 0%, #fcfcfc 20%);
 }
 
 a {
@@ -68,6 +68,10 @@ a {
 a:link {
   bottom: 20px;
   font-size:0;
+}
+
+.social-media-list li {
+  display: inline;
 }
 
 body {
@@ -126,14 +130,6 @@ body {
   }
 }
 
-#particle-canvas {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #FBFBFF;
-  z-index: -999;
-}
-
 .studied a img {
   float: left;
 }
@@ -155,13 +151,31 @@ body {
 .bar {
   fill: #828282;
   fill-opacity: .9;
+  stroke: #36454f;
 }
 
 text.label {
   fill: ghostwhite;
+  stroke: none;
 }
-
 
 :is(h1, h2, h3, h4, h5, h6), p {
   color: #36454f;
+}
+
+.softColumn {
+  float: left;
+  width: 50%;
+}
+
+.softRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .softColumn {
+    width: 100%;
+  }
 }

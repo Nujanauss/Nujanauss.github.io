@@ -26,7 +26,7 @@ I am studying for a Master's in Psychology. My dissertation will investigate
 <div class="intro" id="second">
 <h3>2020</h3>
 <p style="text-align: center;"> 
-After almost three years, I completed a Franco-German research project that used crowd simulation to predict
+I completed a three-year Franco-German research project that used crowd simulation to predict
 changes in crowd dynamics.
 </p>
 <br>
@@ -41,8 +41,10 @@ I graduated with a Bachelor's degree in Mathematics. My focus: optimisation with
 <br>
 </div>
 
+<!---
 <div class="intro" id="overall">
 <p style="text-align: center;"> 
-Making decisions is difficult. I am interested in the how and why of decision making.  
+Making decisions is difficult. I am interested in the how and why of decision making.
 </p>
 </div>
+-->

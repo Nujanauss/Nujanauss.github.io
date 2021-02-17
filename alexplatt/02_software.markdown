@@ -13,5 +13,4 @@ permalink: /software/
 <svg class="icon">
    <use xlink:href="/assets/programming-logos.svg#javascript" />
 </svg>
-
 {:/}

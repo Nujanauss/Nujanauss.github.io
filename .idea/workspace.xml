@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alexplatt/_layouts/software.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alexplatt/assets/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alexplatt/assets/home-grass.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alexplatt/assets/js/bar-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alexplatt/assets/programming-logos.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/01_translation.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/01_translation.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/02_software.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/02_software.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/03_academia.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/03_academia.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/_layouts/no-title-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_layouts/no-title-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/assets/js/background.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/assets/js/bar-chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/js/bar-chart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/assets/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/index.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/index.markdown" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613236843783</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Remove jquery add in d3 bar chart. May be worth keeping jquery cos it worked better for some reason">
+      <created>1613332637311</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1613332637311</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -198,11 +200,15 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="264" y="40" key="CommitChangelistDialog2" timestamp="1613236839623">
+    <state x="264" y="40" key="CommitChangelistDialog2" timestamp="1613332634375">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1612900616708" />
-    <state x="264" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1613236839623" />
+    <state x="264" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1613332634375" />
+    <state x="121" y="90" key="DiffContextDialog" timestamp="1613332625797">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="121" y="90" key="DiffContextDialog/0.40.1280.680@0.40.1280.680" timestamp="1613332625797" />
     <state x="370" y="83" key="RollbackChangesDialog" timestamp="1613065044334">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
@@ -211,11 +217,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="142" y="40" key="SettingsEditor/0.40.1280.680@0.40.1280.680" timestamp="1612991134204" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1613236845730">
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1613332697623">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612900625726" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1613236845730" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1613332697623" />
     <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1613253972927">
       <screen x="0" y="40" width="1280" height="680" />
     </state>

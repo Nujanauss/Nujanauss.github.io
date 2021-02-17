@@ -40,9 +40,10 @@ Graduate Basis for Chartered Membership with the <a href="https://www.bps.org.uk
 <p>
 During my time at Nottingham, I specialised in stochastic models and optimisation. 
 I am particularly interested in Probability Theory, hidden Markov Models, Game Theory, and chaos. 
-By studying abroad for one year, I was able to complete extra courses in these fields.
+By studying abroad at <a href="https://www.adelaide.edu.au" title="">University of Adelaide</a>
+  for one year, I was able to complete extra courses in these fields.
 </p>
 <p>
 My thesis analysed the convergent behaviour of a <a href="https://doi.org/10.1142/S0219525900000078" title="">Deffuant-Wiesbach model</a>
- using numerical analysis and Monte-Carlo simulations on MATLAB.
+ of opinion formation using numerical analysis and Monte-Carlo simulations on MATLAB.
 </p>

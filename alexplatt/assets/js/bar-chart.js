@@ -8,8 +8,6 @@ data = [
   {label:"ØMQ", value:5}
 ];
 
-var div = d3.select("body").append("div");
-
 var axisMargin = 100,
     margin = 100,
     valueMargin = 4,
@@ -40,8 +38,6 @@ bar.attr("class", "bar")
 scale = d3.scaleLinear()
         .domain([0, max])
         .range([0, width - margin*2 - labelWidth]);
-
-yAxis = d3.axisLeft("bottom");
 
 bar.append("rect")
   .attr("transform", "translate(" + labelWidth + ", 0)")
