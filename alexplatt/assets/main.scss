@@ -2,6 +2,10 @@
 ---
 @import "minima";
 
+$light-header: #fcfcfc;
+$dark-header: #ebebeb;
+$charcoal: #36454f;
+
 .svg-icon {
   width: 16px;
   height: 16px;
@@ -13,15 +17,15 @@
 
 .site-header {
   position: fixed;
-  background: #fcfcfc;
-  background: radial-gradient(circle, #fcfcfc 70%, #d6d6d6 100%);
+  background: $light-header;
+  background: radial-gradient(circle, $light-header 70%, $dark-header 100%);
   top: 0;
   z-index: 5;
   width: 100%;
 }
 
 .site-footer {
-  background: linear-gradient(#d6d6d6 0%, #fcfcfc 20%);
+  background: linear-gradient($dark-header 0%, $light-header 20%);
 }
 
 a {
@@ -86,30 +90,6 @@ body {
   background-size: cover;
 }
 
-.testimonial {
-  opacity: 0;
-}
-
-.intro {
- opacity: 0;
- animation-name: fadeIn;
- animation-duration: 3s;
- animation-iteration-count: 1;
- animation-fill-mode: forwards;
-}
-
-#second {
-  animation-delay: 1s;
-}
-
-#third {
-  animation-delay: 2s;
-}
-
-#overall {
-  animation-delay: 3s;
-}
-
 .show {
   opacity: 1;
   transition: opacity 500ms;
@@ -130,37 +110,8 @@ body {
   }
 }
 
-.studied a img {
-  float: left;
-}
-
-.studied h1 {
-  position: relative;
-  display:inline-block;
-  left: 20px;
-}
-
-.axisHorizontal path {
-  display: none;
-}
-
-.axisVertical path {
-  display: none;
-}
-
-.bar {
-  fill: #828282;
-  fill-opacity: .9;
-  stroke: #36454f;
-}
-
-text.label {
-  fill: ghostwhite;
-  stroke: none;
-}
-
 :is(h1, h2, h3, h4, h5, h6), p {
-  color: #36454f;
+  color: $charcoal;
 }
 
 .softColumn {

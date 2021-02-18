@@ -30,7 +30,7 @@ literature for publication, I place a high value on choosing the correct words a
 
 Eloquence. Clarity. Accuracy. Suitability. 
 
-Feel free to <a href="/contact/" title="Contact Alex">get in touch</a>! 
+Feel free to <a href="/contact/" title="">get in touch</a>! 
 
 <br>
 

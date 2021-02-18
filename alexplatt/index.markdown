@@ -7,16 +7,31 @@ layout: home
 
 # Hi, my name is Alex.
 
-<style>
-h3 {text-align: center;}
-br {display: block; margin: 10px 0;}
+<style  type="text/css">
+h3 { text-align: center; }
+br { display: block; margin: 10px 0; }
+p { text-align: center; }
+
+.intro {
+ opacity: 0;
+ animation-name: fadeIn;
+ animation-duration: 3s;
+ animation-iteration-count: 1;
+ animation-fill-mode: forwards;
+}
+
+#second { animation-delay: 1s; }
+
+#third { animation-delay: 2s; }
+
+#overall { animation-delay: 3s; }
 </style>
 
 <br>
 
 <div class="intro">
 <h3>2021</h3>
-<p style="text-align: center;"> 
+<p> 
 I am studying for a Master's in Psychology. My dissertation will investigate
  how we misinterpret the value of evidence.
 </p>
@@ -25,7 +40,7 @@ I am studying for a Master's in Psychology. My dissertation will investigate
 
 <div class="intro" id="second">
 <h3>2020</h3>
-<p style="text-align: center;"> 
+<p> 
 I completed a three-year Franco-German research project that used crowd simulation to predict
 changes in crowd dynamics.
 </p>
@@ -34,7 +49,7 @@ changes in crowd dynamics.
 
 <div class="intro" id="third">
 <h3>2017</h3>
-<p style="text-align: center;"> 
+<p> 
 I graduated with a Bachelor's degree in Mathematics. My focus: optimisation within stochastic environments. 
 </p>
 <br>
@@ -43,7 +58,7 @@ I graduated with a Bachelor's degree in Mathematics. My focus: optimisation with
 
 <!---
 <div class="intro" id="overall">
-<p style="text-align: center;"> 
+<p> 
 Making decisions is difficult. I am interested in the how and why of decision making.
 </p>
 </div>
