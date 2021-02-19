@@ -4,11 +4,23 @@ title: Academia
 permalink: /academia/
 ---
 
+<style>
+.logo {
+   display: flex;
+   align-items:center;
+}
+
+a img {
+  width: 150px;
+}
+</style>
+
+
 <div class="logo">
 <a href="https://www.ucl.ac.uk/">
-   <img src="..//assets/ucl.png" width="20%" height="20%">
+   <img src="..//assets/ucl.png">
 </a>
-<h1>MSc. Psychological Sciences</h1>
+<h1 style="margin-bottom:0">MSc. Psychological Sciences</h1>
 </div>
 
 <br>
@@ -27,9 +39,9 @@ Graduate Basis for Chartered Membership with the [British Psychological Society]
 
 <div class="logo">
 <a href="https://www.nottingham.ac.uk/">
-   <img src="..//assets/notts.png" width="20%" height="20%">
+   <img src="..//assets/notts.png">
 </a>
-<h1>BSc. Mathematics (International Study)</h1> 
+<h1 style="margin-bottom:0;" >BSc. Mathematics (International Study)</h1>
 </div>
 
 <br>

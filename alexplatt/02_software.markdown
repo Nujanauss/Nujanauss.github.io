@@ -4,42 +4,74 @@ title: Software
 permalink: /software/
 ---
 <style>
-img[alt=logo] { width: 50px; }
+img:not(.accurate) { width: 50px; height: 50px; }
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.column h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: centre;
+}
 </style>
 
+# Experience
+I worked for a number of years at [accu:rate](https://www.accu-rate.de/en/) who design crowd simulation software in Java.
 
-<div class="logo">
-<a href="https://www.accu-rate.de/en">
-   <img src="..//assets/accurate.png" width="20%" height="20%">
-</a>
-<h1>accu:rate GmbH</h1>
+<br>
+<br>
+
+ <div class="row">
+ 
+  <div class="column">
+    <div class="container">
+      <div align="center;" class="logos">
+        <h1>Commercial</h1>
+        <img src="..//assets/logos/java.svg" alt="java" style="margin:10px;">
+        <img src="..//assets/logos/python.svg" alt="python" style="margin:10px;">
+        <img src="..//assets/logos/protobuf.png" alt="protobuf" style="margin:10px;">
+      </div>
+    </div>    
+  </div>
+  
+  <div class="column">
+    <div class="container">
+      <div align="center;" class="logos">
+        <h1>Web</h1>
+        <img src="..//assets/logos/javascript.svg" alt="javascript" style="margin:10px;">
+        <img src="..//assets/logos/css.svg" alt="css" style="margin:10px;">
+        <img src="..//assets/logos/html.svg" alt="html" style="margin:10px;">
+      </div>
+    </div>    
+  </div>
+  
+  <div class="column">
+    <div class="container">
+      <div align="center;" class="logos">
+        <h1>Scientific</h1>
+        <img src="..//assets/logos/r.svg" alt="r" style="margin:10px;">
+        <img src="..//assets/logos/matlab.png" alt="matlab" style="margin:10px;">
+        <img src="..//assets/logos/spss.png" alt="spss" style="margin:10px;">
+      </div>
+    </div>    
+  </div>
+  
 </div>
-
-<br>
-
-I worked for a number of years at accu:rate who design crowd simulation software. 
-
-
-<br>
-<br>
-
-# Commercial Software
-![logo](..//assets/logos/java.svg "Java")&nbsp;&nbsp;&nbsp;
-![logo](..//assets/logos/python.svg "Python")&nbsp;&nbsp;&nbsp;
-![logo](..//assets/logos/protobuf.svg "Protobuf")
-
-<br>
-<br>
-
-# Web Development
-![logo](..//assets/logos/javascript.svg "Javascript")&nbsp;&nbsp;&nbsp;
-![logo](..//assets/logos/css.svg "CSS")&nbsp;&nbsp;&nbsp;
-![logo](..//assets/logos/html.svg "HTML")
-
-<br>
-<br>
-
-# Scientific
-![logo](..//assets/logos/r.svg "R")&nbsp;&nbsp;&nbsp;
-![logo](..//assets/logos/matlab.png "MATLAB")&nbsp;&nbsp;&nbsp;
-![logo](..//assets/logos/spss.png "SPSS")
