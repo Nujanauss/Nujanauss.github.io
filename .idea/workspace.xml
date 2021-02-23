@@ -5,7 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/02_software.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/02_software.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/03_academia.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/03_academia.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/assets/logos/protobuf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/_includes/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/assets/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613681230645</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ALIGN STUFF">
+      <created>1613756080781</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1613756080781</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -195,7 +205,8 @@
     <MESSAGE value="Remove jquery add in d3 bar chart. May be worth keeping jquery cos it worked better for some reason" />
     <MESSAGE value="General improvements everywhere" />
     <MESSAGE value="Try and actually use markdown and add logos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Try and actually use markdown and add logos" />
+    <MESSAGE value="ALIGN STUFF" />
+    <option name="LAST_COMMIT_MESSAGE" value="ALIGN STUFF" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
@@ -210,15 +221,15 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1613681227784">
+    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1613756077143">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1612900616708" />
-    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1613681227784" />
-    <state x="121" y="90" key="DiffContextDialog" timestamp="1613332625797">
+    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1613756077143" />
+    <state x="121" y="90" width="1024" height="572" key="DiffContextDialog" timestamp="1613778436884">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="121" y="90" key="DiffContextDialog/0.40.1280.680@0.40.1280.680" timestamp="1613332625797" />
+    <state x="121" y="90" width="1024" height="572" key="DiffContextDialog/0.40.1280.680@0.40.1280.680" timestamp="1613778436884" />
     <state x="370" y="83" key="RollbackChangesDialog" timestamp="1613065044334">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
@@ -227,22 +238,30 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="142" y="40" key="SettingsEditor/0.40.1280.680@0.40.1280.680" timestamp="1612991134204" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1613681313416">
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1613756082715">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612900625726" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1613681313416" />
-    <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1613675379158">
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1613756082715" />
+    <state x="93" y="133" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614097295434">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="347" y="113" width="587" height="534" key="find.popup/0.40.1280.680@0.40.1280.680" timestamp="1613675379158" />
+    <state x="93" y="133" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.40.1280.680@0.40.1280.680" timestamp="1614097295434" />
+    <state x="458" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614097332275">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="458" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1280.680@0.40.1280.680" timestamp="1614097332275" />
+    <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1613778962137">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="347" y="113" width="587" height="534" key="find.popup/0.40.1280.680@0.40.1280.680" timestamp="1613778962137" />
     <state x="297" y="171" key="run.anything.popup" timestamp="1612973718659">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="297" y="171" key="run.anything.popup/0.40.1280.680@0.40.1280.680" timestamp="1612973718659" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1613067679734">
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1613775126405">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.40.1280.680@0.40.1280.680" timestamp="1613067679734" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.40.1280.680@0.40.1280.680" timestamp="1613775126405" />
   </component>
 </project>

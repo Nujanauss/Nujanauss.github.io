@@ -50,6 +50,10 @@ window.addEventListener("load", function() {
   }
 });
 
+window.addEventListener("beforeunload",function(e){
+    document.body.className = "page-loading";
+},false);
+
 
 window.onscroll = function(ev) {
     var windowBottom = window.scrollY + window.innerHeight;

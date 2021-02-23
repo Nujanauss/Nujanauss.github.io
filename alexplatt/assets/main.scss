@@ -17,11 +17,11 @@ $charcoal: #36454f;
 
 .site-header {
   position: fixed;
-  background: $light-header;
   background: radial-gradient(circle, $light-header 70%, $dark-header 100%);
   top: 0;
   z-index: 5;
   width: 100%;
+  box-shadow: 0px 0px 10px grey;
 }
 
 .site-footer {
@@ -114,19 +114,30 @@ body {
   color: $charcoal;
 }
 
-.softColumn {
-  float: left;
-  width: 50%;
-}
-
-.softRow:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 @media screen and (max-width: 600px) {
   .softColumn {
     width: 100%;
   }
+}
+
+@keyframes page-load {
+    from {
+        background-color: #ffffff;
+    }
+    to {
+        background-color: #000000;
+    }
+}
+.page-loading::before {
+    content:" ";
+    display:block;
+    position:fixed;
+    z-index:10;
+    height:2px;
+    width:100%;
+    top:0;
+    left:0;
+    background-color:#06D;
+    animation: page-load infinite ease-out 2s;
+    box-shadow:0 2px 2px rgba(0,0,0,.2);
 }

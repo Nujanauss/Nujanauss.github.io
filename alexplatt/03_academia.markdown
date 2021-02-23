@@ -18,7 +18,7 @@ a img {
 
 <div class="logo">
 <a href="https://www.ucl.ac.uk/">
-   <img src="..//assets/ucl.png">
+   <img src="..//assets/ucl.png" alt="UCL">
 </a>
 <h1 style="margin-bottom:0">MSc. Psychological Sciences</h1>
 </div>
@@ -39,7 +39,7 @@ Graduate Basis for Chartered Membership with the [British Psychological Society]
 
 <div class="logo">
 <a href="https://www.nottingham.ac.uk/">
-   <img src="..//assets/notts.png">
+   <img src="..//assets/notts.png" alt="University of Nottingham">
 </a>
 <h1 style="margin-bottom:0;" >BSc. Mathematics (International Study)</h1>
 </div>
