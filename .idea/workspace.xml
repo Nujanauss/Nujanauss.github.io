@@ -4,11 +4,7 @@
     <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/02_software.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/02_software.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/03_academia.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/03_academia.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/_includes/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/assets/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/04_contact.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/04_contact.markdown" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613756080781</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Improve software page, do a bit of cleaning">
+      <created>1614101581368</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1614101581368</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -206,7 +209,8 @@
     <MESSAGE value="General improvements everywhere" />
     <MESSAGE value="Try and actually use markdown and add logos" />
     <MESSAGE value="ALIGN STUFF" />
-    <option name="LAST_COMMIT_MESSAGE" value="ALIGN STUFF" />
+    <MESSAGE value="Improve software page, do a bit of cleaning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve software page, do a bit of cleaning" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
@@ -221,15 +225,15 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1613756077143">
+    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1614101578188">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1612900616708" />
-    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1613756077143" />
-    <state x="121" y="90" width="1024" height="572" key="DiffContextDialog" timestamp="1613778436884">
+    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1614101578188" />
+    <state x="121" y="90" width="1024" height="572" key="DiffContextDialog" timestamp="1614101623808">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="121" y="90" width="1024" height="572" key="DiffContextDialog/0.40.1280.680@0.40.1280.680" timestamp="1613778436884" />
+    <state x="121" y="90" width="1024" height="572" key="DiffContextDialog/0.40.1280.680@0.40.1280.680" timestamp="1614101623808" />
     <state x="370" y="83" key="RollbackChangesDialog" timestamp="1613065044334">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
@@ -238,11 +242,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="142" y="40" key="SettingsEditor/0.40.1280.680@0.40.1280.680" timestamp="1612991134204" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1613756082715">
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1614101626873">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612900625726" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1613756082715" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1614101626873" />
     <state x="93" y="133" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614097295434">
       <screen x="0" y="40" width="1280" height="680" />
     </state>

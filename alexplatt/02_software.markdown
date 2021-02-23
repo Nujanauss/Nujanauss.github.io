@@ -98,6 +98,10 @@ It is hosted on
 
 <br>
 
+My mentor in all things technical is [this guy](http://florian.sesser.at).
+
+<br>
+
  <div class="row">
  
   <div class="column">
