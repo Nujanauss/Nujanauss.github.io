@@ -5,7 +5,7 @@
 layout: home
 ---
 
-# Hi, my name is Alex.
+## Hi, my name is Alex.
 
 <style  type="text/css">
 h3 { text-align: center; }
@@ -23,8 +23,6 @@ p { text-align: center; }
 #second { animation-delay: 1s; }
 
 #third { animation-delay: 2s; }
-
-#overall { animation-delay: 3s; }
 </style>
 
 <br>
@@ -55,11 +53,3 @@ I graduated with a Bachelor's degree in Mathematics. My focus: optimisation with
 <br>
 <br>
 </div>
-
-<!---
-<div class="intro" id="overall">
-<p> 
-Making decisions is difficult. I am interested in the how and why of decision making.
-</p>
-</div>
--->

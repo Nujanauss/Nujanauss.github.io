@@ -2,29 +2,105 @@
 layout: no-title-inline
 ---
 <style>
-.axisHorizontal path {
-  display: none;
+img:not(.accurate) {
+  width: 50px;
+  height: 50px;
+  transition: transform .2s;
 }
 
-.axisVertical path {
-  display: none;
+.column {
+  float: left;
+  width: 33.33%;
 }
 
-.bar {
-  fill: #828282;
-  fill-opacity: .9;
-  stroke: #36454f;
+.column h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-text.label {
-  fill: ghostwhite;
-  stroke: none;
+@media screen and (max-width: 600px) {
+  .logos {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  display: flex;
+  height: auto;
+  width: auto;
+  align-items: center;
+  justify-content: centre;
+}
+
+.item {
+  order: 0;
+}
+
+.wrapper-container {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 100px;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
 }
 </style>
+
 <article class="post">
     <div class="post-content">
         {{ content }}
+
+        <br>
+
+        <div class="row">
+
+            <div class="column">
+                <div class="container">
+                    <div align="center;" class="logos">
+                        <h4>Commercial</h4>
+                        <a href="https://www.java.com/"><img class="zoom" src="..//assets/logos/java.svg" alt="java" style="margin:10px;"></a>
+                        <a href="https://www.python.org/"><img class="zoom" src="..//assets/logos/python.svg" alt="python" style="margin:10px;"></a>
+                        <a href="https://developers.google.com/protocol-buffers"><img class="zoom" src="..//assets/logos/protobuf.png" alt="protobuf" style="margin:10px;"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="container">
+                    <div align="center;" class="logos">
+                        <h4>Web Dev</h4>
+                        <a href="https://www.javascript.com/"><img class="zoom" src="..//assets/logos/javascript.svg" alt="javascript" style="margin:10px;"></a>
+                        <a href="https://www.w3.org/TR/CSS/"><img class="zoom" src="..//assets/logos/css.svg" alt="css" style="margin:10px;"></a>
+                        <a href="https://html.spec.whatwg.org/"><img class="zoom" src="..//assets/logos/html.svg" alt="html" style="margin:10px;"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="container">
+                    <div align="center;" class="logos">
+                        <h4>Scientific</h4>
+                        <a href="https://www.r-project.org/"><img class="zoom" src="..//assets/logos/r.svg" alt="r" style="margin:10px;"></a>
+                        <a href="https://www.mathworks.com/products/matlab.html"><img class="zoom" src="..//assets/logos/matlab.png" alt="matlab" style="margin:10px;"></a>
+                        <a href="https://www.ibm.com/products/spss-statistics"><img class="zoom" src="..//assets/logos/spss.png" alt="spss" style="margin:10px;"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.5.0/d3.min.js"></script>
-<script type="text/javascript" src="/assets/js/bar-chart.js" ></script>
 </article>

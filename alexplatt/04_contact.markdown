@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: no-title-page
 title: Contact
 permalink: /contact/
 ---
 
-<style> 
+<style>
   input, textarea { 
     outline: none;
   }
@@ -15,7 +15,6 @@ permalink: /contact/
   }
  
   .form-inner {
-    padding: 10px;
     box-sizing: border-box;
   }
 
@@ -27,6 +26,7 @@ permalink: /contact/
     border: none;
     border-radius: 2px;
     background: #ebebeb;
+    box-sizing:border-box
   }
  
   button {
@@ -51,16 +51,30 @@ permalink: /contact/
        width: 60%;
      }
   }
+  
+  input[type="checkbox"] {
+    display:inline-block;
+    vertical-align:middle;
+  }
 </style>
 
+# Contact
 
-Want to get in touch? Feel free to send me a message!
+Feel free to send me a message!
 
-<form action="https://usebasin.com/f/b7e6cac71fe7" method="POST">
+<form id="invisible-recaptcha-form" action="https://usebasin.com/f/b7e6cac71fe7" method="POST">
   <div class="form-inner">
-    <input type="text" placeholder="Name" name="name">
     <input type="email" placeholder="Email" name="email">
     <textarea placeholder="Message..." rows="5" name="message"></textarea>
-    <button type="submit">Submit</button>
   </div>
+  <input type="checkbox" required id="check1">
+  <label for="check1">
+      I understand and consent to my data being processed by <a href="https://usebasin.com">Basin</a>, whose 
+      privacy policy can be found <a href="https://usebasin.com/privacy"> here</a>.
+      Any data I provide will be deleted after 14 days.
+      </label>
+      <br>
+      <br>
+      <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+      <button>Submit</button>
 </form>

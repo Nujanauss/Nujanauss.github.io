@@ -30,7 +30,7 @@ Mathematical modelling and software development are tools. In studying psycholog
 
 My thesis concerns how and when medical practitioners fail to value informative evidence. 
 In particular, I am investigating the point at which the [zero-sum fallacy](https://doi.org/10.1177/0956797618818484) manifests.
-I am under the supervision of [Professor David Lagnado](https://www.ucl.ac.uk/lagnado-lab/david_lagnado.html) 
+I am under the supervision of [Professor David Lagnado](https://www.ucl.ac.uk/lagnado-lab/david_lagnado.html).
 
 The course confers me with 
 Graduate Basis for Chartered Membership with the [British Psychological Society](https://www.bps.org.uk).

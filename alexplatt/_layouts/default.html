@@ -2,6 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
 {%- include head.html -%}
+
 <body>
 
 {%- include header.html -%}
@@ -13,5 +14,6 @@
 
 {%- include footer.html -%}
 </body>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script> <!--custom-head not working-->
 <script type="text/javascript" src="/assets/js/main.js"></script>
 </html>

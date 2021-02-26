@@ -8,17 +8,16 @@ permalink: /copy/
    .tab { margin-left: 40px; }
 </style>
 
-<h1>Writing is
+<h2 style="font-size:24px;">Writing is
   <span
      class="txt-rotate"
      data-period="1000"
      data-rotate='[ "hard.", "difficult.", "challenging." ]'>
      </span>
-</h1>
+</h2>
 
 #### Have someone on your side.
 
-<br>
 
 Words are meaningless without context. They are embedded in phrases. Phrases are embedded in sentences. 
 And sentences in paragraphs. To write well is to write at each of these levels simultaneously. 
@@ -34,7 +33,7 @@ Feel free to <a href="/contact/" title="">get in touch</a>!
 
 <br>
 
-#### Testimonials
+# Testimonials
 
 <div class="testimonial">
 <a class="tab" href="https://florian.sesser.at/">Florian Sesser</a> 
