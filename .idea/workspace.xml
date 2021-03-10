@@ -212,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614352643654</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Need a privacy policy and some kind of pot">
+      <created>1615415851955</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1615415851955</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -250,7 +257,8 @@
     <MESSAGE value="Improve software page, do a bit of cleaning" />
     <MESSAGE value="Add contact form - no captcha" />
     <MESSAGE value="Captcha on contact form and use markdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Captcha on contact form and use markdown" />
+    <MESSAGE value="Need a privacy policy and some kind of pot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Need a privacy policy and some kind of pot" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
@@ -265,11 +273,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1614352641030">
+    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1615415846523">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1612900616708" />
-    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1614352641030" />
+    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1615415846523" />
     <state x="121" y="90" width="1024" height="572" key="DiffContextDialog" timestamp="1615413022981">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
@@ -282,11 +290,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="142" y="40" key="SettingsEditor/0.40.1280.680@0.40.1280.680" timestamp="1612991134204" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1614352645998">
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1615415898222">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612900625726" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1614352645998" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1615415898222" />
     <state x="93" y="133" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614097295434">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
