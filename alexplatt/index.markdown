@@ -1,11 +1,6 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
-
-## Hi, my name is Alex.
 
 <style  type="text/css">
 h3 { text-align: center; }
@@ -48,7 +43,7 @@ changes in crowd dynamics.
 <div class="intro" id="third">
 <h3>2017</h3>
 <p> 
-I graduated with a Bachelor's degree in Mathematics. My focus: optimisation within stochastic environments. 
+I graduated with a Bachelor's degree in Mathematics. My focus: optimisation under uncertainty. 
 </p>
 <br>
 <br>

@@ -1,5 +1,5 @@
 ---
-layout: no-title-page
+layout: translation
 title: Copy-writing
 permalink: /copy/
 ---
@@ -16,7 +16,7 @@ permalink: /copy/
      </span>
 </h2>
 
-#### Have someone on your side.
+#### So I try to make reading easy.
 
 
 Words are meaningless without context. They are embedded in phrases. Phrases are embedded in sentences. 
@@ -29,26 +29,24 @@ literature for publication, I place a high value on choosing the correct words a
 
 Eloquence. Clarity. Accuracy. Suitability. 
 
-Feel free to <a href="/contact/" title="">get in touch</a>! 
-
 <br>
 
 # Testimonials
 
 <div class="testimonial">
-<a class="tab" href="https://florian.sesser.at/">Florian Sesser</a> 
-<blockquote>
-Making text about complex subjects a pleasure to read is an art, and requires tremendous skill in
-multiple disciplines. Alex is a master at effective communication, and always a pleasure to work with. Highly
-recommended.
-</blockquote>
+  <a class="tab" href="https://florian.sesser.at/">Florian Sesser</a> 
+  <blockquote>
+    Making text about complex subjects a pleasure to read is an art, and requires tremendous skill in
+    multiple disciplines. Alex is a master at effective communication, and always a pleasure to work with. Highly
+    recommended.
+  </blockquote>
 </div>
 
 <div class="testimonial">
-<a class="tab" href="https://www.plantura.garden/">Laurence Orgeret</a> 
-<blockquote>
-I really enjoy working with Alex. He has an eloquent style and I know I can count on his expertise for a
- wide range of topics. He consistently produces work of a high standard regardless of the topic at hand.
-  Furthermore, his friendly manner makes him a pleasure to work with.
-</blockquote> 
+  <a class="tab" href="https://www.plantura.garden/">Laurence Orgeret</a> 
+  <blockquote>
+    I really enjoy working with Alex. He has an eloquent style and I know I can count on his expertise for a
+    wide range of topics. He consistently produces work of a high standard regardless of the topic at hand.
+    Furthermore, his friendly manner makes him a pleasure to work with.
+  </blockquote> 
 </div>

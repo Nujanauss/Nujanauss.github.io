@@ -47,7 +47,7 @@ Graduate Basis for Chartered Membership with the [British Psychological Society]
 <br>
 
 During my time at Nottingham, I specialised in stochastic models and optimisation. 
-I am particularly interested in Probability Theory, hidden Markov Models, Game Theory, and chaos. 
+I am particularly interested in Probability Theory, Hidden Markov Models, Game Theory, and Chaos. 
 By studying abroad at [University of Adelaide](https://www.adelaide.edu.au)
   for one year, I was able to complete extra courses in these fields.
 

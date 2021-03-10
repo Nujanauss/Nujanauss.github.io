@@ -68,10 +68,9 @@ a {
   transform: scaleX(0.4);
 }
 
-.social-media-list
-a:link {
-  bottom: 20px;
-  font-size:0;
+.social-media-list a:link {
+    bottom: 30px;
+    font-size:0;
 }
 
 .social-media-list li {
@@ -80,6 +79,7 @@ a:link {
 
 body {
   padding: 85px 0 0;  // padding-top equal to masthead height or greater
+  background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

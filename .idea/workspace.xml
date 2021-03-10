@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/alexplatt/_layouts/translation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alexplatt/assets/js/translation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/01_translation.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/01_translation.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/02_software.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/02_software.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/03_academia.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/03_academia.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/04_contact.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/04_contact.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_includes/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/_layouts/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_layouts/software.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/_layouts/no-title-inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_layouts/no-title-inline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/assets/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/assets/fog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/assets/home-grass.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/assets/js/bar-chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/assets/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/index.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/index.markdown" afterDir="false" />
     </list>
@@ -197,11 +205,28 @@
       <option name="project" value="LOCAL" />
       <updated>1614112101447</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Captcha on contact form and use markdown">
+      <created>1614352643654</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1614352643654</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Use forty-jekyll-theme" />
@@ -224,7 +249,8 @@
     <MESSAGE value="ALIGN STUFF" />
     <MESSAGE value="Improve software page, do a bit of cleaning" />
     <MESSAGE value="Add contact form - no captcha" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add contact form - no captcha" />
+    <MESSAGE value="Captcha on contact form and use markdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Captcha on contact form and use markdown" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
@@ -239,15 +265,15 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1614112098259">
+    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1614352641030">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1612900616708" />
-    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1614112098259" />
-    <state x="121" y="90" width="1024" height="572" key="DiffContextDialog" timestamp="1614101623808">
+    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1614352641030" />
+    <state x="121" y="90" width="1024" height="572" key="DiffContextDialog" timestamp="1615413022981">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="121" y="90" width="1024" height="572" key="DiffContextDialog/0.40.1280.680@0.40.1280.680" timestamp="1614101623808" />
+    <state x="121" y="90" width="1024" height="572" key="DiffContextDialog/0.40.1280.680@0.40.1280.680" timestamp="1615413022981" />
     <state x="370" y="83" key="RollbackChangesDialog" timestamp="1613065044334">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
@@ -256,11 +282,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="142" y="40" key="SettingsEditor/0.40.1280.680@0.40.1280.680" timestamp="1612991134204" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1614112104076">
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1614352645998">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612900625726" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1614112104076" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1614352645998" />
     <state x="93" y="133" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614097295434">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
@@ -269,10 +295,10 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="458" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1280.680@0.40.1280.680" timestamp="1614097332275" />
-    <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1613778962137">
+    <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1614713879216">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="347" y="113" width="587" height="534" key="find.popup/0.40.1280.680@0.40.1280.680" timestamp="1613778962137" />
+    <state x="347" y="113" width="587" height="534" key="find.popup/0.40.1280.680@0.40.1280.680" timestamp="1614713879216" />
     <state x="297" y="171" key="run.anything.popup" timestamp="1612973718659">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
