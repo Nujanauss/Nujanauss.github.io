@@ -19,6 +19,7 @@ p { text-align: center; }
 
 #third { animation-delay: 2s; }
 </style>
+# Welcome to my website — you found it! 
 
 <br>
 
