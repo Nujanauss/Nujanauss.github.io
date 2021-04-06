@@ -6,7 +6,7 @@ permalink: /software/
 # Commercial software
 
 I worked for a number of years as a front and backend developer at 
-[accu:rate](https://www.accu-rate.de/en/)
+[accu:rate](https://www.accu-rate.de/en/),
  who design crowd simulation software in Java.
 
 Primarily, I focussed on a multinational research project which combined 

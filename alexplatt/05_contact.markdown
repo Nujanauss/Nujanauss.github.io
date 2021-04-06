@@ -101,6 +101,17 @@ permalink: /contact/
     font-weight: 400;
     color: #ebebeb;
   }
+  
+  button.form:hover {
+    background: #212a30;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 600px) {
+     form {
+       width: 60%;
+     }
+  }
     
   input[type="checkbox"] {
     display:inline-block;
@@ -122,7 +133,6 @@ permalink: /contact/
   </p>
 </div>
 
-<div class="wrapper">
 <form action="https://usebasin.com/f/b7e6cac71fe7" method="POST" autocomplete="off">
   <div class="form-inner">
     <input type="hidden" placeholder="Name" name="name" autocomplete="off">
@@ -132,12 +142,11 @@ permalink: /contact/
   </div>
   <input type="checkbox" required id="check1">
     <label for="check1">
-      I understand and consent to the <a href="../resources/privacy-policy.pdf"> privacy policy</a>.
+      I understand and consent to the <a href="../privacy/"> privacy policy</a>.
     </label>
   <br>
   <button class="form">Submit</button>
 </form>
-</div>>
 
 <script>
 function show() {

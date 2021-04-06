@@ -40,17 +40,7 @@ TxtRotate.prototype.tick = function() {
 };
 
 window.addEventListener("load", function() {
-  var elements = document.getElementsByClassName('txt-rotate');
-  for (var i = 0; i < elements.length; i++) {
-    var toRotate = elements[i].getAttribute('data-rotate');
-    var period = elements[i].getAttribute('data-period');
-    if (toRotate) {
-      new TxtRotate(elements[i], JSON.parse(toRotate), period);
-    }
-  }
-});
-
-window.onscroll = function(ev) {
+  window.onscroll = function(ev) {
     var windowBottom = window.scrollY + window.innerHeight;
     document.querySelectorAll(".testimonial").forEach(testimonial => {
       /* Check the location of each desired element */
@@ -66,4 +56,14 @@ window.onscroll = function(ev) {
           testimonial.classList.remove("show");
       }
     });
-};
+  };
+
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i = 0; i < elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+});

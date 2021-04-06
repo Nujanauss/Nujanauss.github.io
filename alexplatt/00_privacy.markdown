@@ -104,7 +104,7 @@ Any data you do provide to me will be deleted ordinarily within 30 days. In orde
  deleted.
  
 I will use your data to the extent that it is necessary to respond to your comment, question or request. 
-Otherwise, I will delete your personal data by default within the 30 days.
+Otherwise, I will delete your personal data automatically within the 30 days.
 
 I will not share, sell, trade or rent any of your personal information.
 

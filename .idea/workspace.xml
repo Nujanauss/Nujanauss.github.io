@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/01_translation.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/03_translation.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/03_academia.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/01_academia.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/04_contact.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/04_contact.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/00_privacy.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/00_privacy.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/01_academia.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/01_academia.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/02_software.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/02_software.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/04_contact.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/05_contact.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/assets/js/translation.js" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/js/translation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/assets/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/index.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/index.markdown" afterDir="false" />
     </list>
@@ -32,18 +34,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/alexplatt/_layouts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/alexplatt" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt" />
       <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\_layouts" />
       <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\_sass" />
       <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\_includes" />
       <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\fonts" />
+      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\_posts" />
       <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\assets" />
     </key>
   </component>
@@ -217,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615415944753</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Allow copying of email">
+      <created>1616189443006</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1616189443006</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Improvements all over &amp; privacy">
+      <created>1617738353606</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1617738353606</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -257,7 +276,9 @@
     <MESSAGE value="Captcha on contact form and use markdown" />
     <MESSAGE value="Need a privacy policy and some kind of pot" />
     <MESSAGE value="correct link in footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct link in footer" />
+    <MESSAGE value="Allow copying of email" />
+    <MESSAGE value="Improvements all over &amp; privacy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improvements all over &amp; privacy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
@@ -272,15 +293,15 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1615415939908">
+    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1617738351892">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1612900616708" />
-    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1615415939908" />
-    <state x="121" y="90" width="1024" height="572" key="DiffContextDialog" timestamp="1615413022981">
+    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1617738351892" />
+    <state x="121" y="90" width="1024" height="572" key="DiffContextDialog" timestamp="1616189618092">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="121" y="90" width="1024" height="572" key="DiffContextDialog/0.40.1280.680@0.40.1280.680" timestamp="1615413022981" />
+    <state x="121" y="90" width="1024" height="572" key="DiffContextDialog/0.40.1280.680@0.40.1280.680" timestamp="1616189618092" />
     <state x="370" y="83" key="RollbackChangesDialog" timestamp="1613065044334">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
@@ -289,11 +310,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="142" y="40" key="SettingsEditor/0.40.1280.680@0.40.1280.680" timestamp="1612991134204" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1615415965346">
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1617738370582">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612900625726" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1615415965346" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1617738370582" />
     <state x="93" y="133" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614097295434">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
@@ -302,10 +323,10 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="458" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1280.680@0.40.1280.680" timestamp="1614097332275" />
-    <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1614713879216">
+    <state x="347" y="113" width="587" height="534" key="find.popup" timestamp="1617740346320">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="347" y="113" width="587" height="534" key="find.popup/0.40.1280.680@0.40.1280.680" timestamp="1614713879216" />
+    <state x="347" y="113" width="587" height="534" key="find.popup/0.40.1280.680@0.40.1280.680" timestamp="1617740346320" />
     <state x="297" y="171" key="run.anything.popup" timestamp="1616170431681">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
