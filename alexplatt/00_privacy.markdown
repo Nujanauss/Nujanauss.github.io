@@ -98,10 +98,10 @@ No IP address. No cookies. No analytics.
 If you choose to use the contact form, I will collect the personal data you choose to provide to me. 
 You are not obliged to provide your Email address or any other personal data to contact me.
  
-Any data you do provide to me will be deleted ordinarily within 30 days. In order to respond to your comment, question
- or request, or for some other legal obligation, I may need to hold your personal data for longer than 30 days.
-  As soon as is appropriate after the 30 days, within reason, your data will be
- deleted.
+Any data you do provide to me will be deleted ordinarily within 30 days automatically.
+In order to respond to your comment, question or request, or for some other legal obligation, I may need to hold
+ your personal data for longer than 30 days.
+If this is the case, as soon as is appropriate, within reason, your data will be deleted.
  
 I will use your data to the extent that it is necessary to respond to your comment, question or request. 
 Otherwise, I will delete your personal data automatically within the 30 days.

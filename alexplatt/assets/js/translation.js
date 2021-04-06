@@ -1,3 +1,7 @@
+window.addEventListener("beforeunload", function(e) {
+    document.body.className = "page-loading";
+}, false);
+
 var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
@@ -41,6 +45,12 @@ TxtRotate.prototype.tick = function() {
 
 window.addEventListener("load", function() {
   window.onscroll = function(ev) {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.querySelector(".site-title").style.fontSize = "22px";
+    } else {
+    document.querySelector(".site-title").style.fontSize = "26px";
+    }
+
     var windowBottom = window.scrollY + window.innerHeight;
     document.querySelectorAll(".testimonial").forEach(testimonial => {
       /* Check the location of each desired element */
