@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/alexplatt/_sass/minima.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alexplatt/_sass/minima/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alexplatt/_sass/minima/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alexplatt/_sass/minima/_syntax-highlighting.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/00_privacy.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/00_privacy.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/assets/js/translation.js" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/js/translation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617740630847</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="bugfix">
+      <created>1617742013365</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1617742013365</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -254,7 +263,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Attempt to get it running" />
     <MESSAGE value="Start new plain project with a little customisation" />
     <MESSAGE value="Add other pages and change footer" />
     <MESSAGE value="Improve footer" />
@@ -279,7 +287,8 @@
     <MESSAGE value="Allow copying of email" />
     <MESSAGE value="Improvements all over &amp; privacy" />
     <MESSAGE value="FONT and fix scroll appear" />
-    <option name="LAST_COMMIT_MESSAGE" value="FONT and fix scroll appear" />
+    <MESSAGE value="bugfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bugfix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
@@ -294,11 +303,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1617740629759">
+    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1617742012162">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1612900616708" />
-    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1617740629759" />
+    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1617742012162" />
     <state x="121" y="90" width="1024" height="572" key="DiffContextDialog" timestamp="1616189618092">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
@@ -311,11 +320,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="142" y="40" key="SettingsEditor/0.40.1280.680@0.40.1280.680" timestamp="1612991134204" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1617740635796">
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1617742017700">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612900625726" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1617740635796" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1617742017700" />
     <state x="93" y="133" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614097295434">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
