@@ -58,7 +58,7 @@ permalink: /contact/
   
   .protect p.inner .tooltip:after {
     cursor: pointer;
-    content: "\002E" attr(domain) "\002E \006C \0069 \0061 \006D \0040 \0074 \0073 \0065 \0074";
+    content: "\002E" attr(domain) "\002E \006C \0069 \0061 \006D \006E \006F \0074 \006F \0072 \0070 \0040 \0065 \0074 \0069 \0073 \0062 \0065 \0077 \002D \0074 \0074 \0061 \006C \0070 \0078 \0065 \006C \0061";
     text-indent: 0;
     display: block;
     line-height: initial;
@@ -100,6 +100,7 @@ permalink: /contact/
     font-size: 16px;
     font-weight: 400;
     color: #ebebeb;
+    outline: none;
   }
   
   button.form:hover {
@@ -118,6 +119,10 @@ permalink: /contact/
     vertical-align:middle;
   }
   
+  input[type="name"] {
+    display: none;
+  }
+  
   label {
     vertical-align:middle;
   }
@@ -133,24 +138,51 @@ permalink: /contact/
   </p>
 </div>
 
-<form action="https://usebasin.com/f/b7e6cac71fe7" method="POST" autocomplete="off">
+<form action="https://usebasin.com/f/b7e6cac71fe7" method="POST" autocomplete="off" id="my-contact-form">
   <div class="form-inner">
-    <input type="hidden" placeholder="Name" name="name" autocomplete="off">
-    <input type="email" placeholder="Email" name="email" autocomplete="off">
-    <input type="hidden" placeholder="Subject" name="subject" autocomplete="off">
-    <textarea placeholder="Message..." rows="5" name="message"></textarea>
+    <input type="name" placeholder="Name" name="name" autocomplete="off" id="form-name">
+    <input type="email" placeholder="Email" name="email" autocomplete="off" id="form-email">
+    <textarea required 
+      onkeyup="this.value = this.value.replace(/[$=+*<>]/g, '')"
+      minlength="5"
+      oninvalid="setCustomValidity('Should not be empty. Avoid strange characters.')"
+      oninput="setCustomValidity('')" 
+      placeholder="Message..." 
+      rows="5" 
+      name="message" id="form-msg"></textarea>
   </div>
   <input type="checkbox" required id="check1">
     <label for="check1">
       I understand and consent to the <a href="../privacy/"> privacy policy</a>.
     </label>
   <br>
-  <button class="form">Submit</button>
+  <button class="form" id="form-button" onclick="ajax();">Submit</button>
+  <div id="form-message"></div>
 </form>
 
 <script>
+function ajax() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.responseType = "json";
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  
+  xhttp.open("POST", "https://usebasin.com/f/b7e6cac71fe7.json", true);
+  xhttp.send();
+}
+
+var name = "alexplatt";
+var dash = "-";
+var website = "website";
+var at = "@";
+var domain = "protonmail";
+var dot = ".";
+var com = "com";
 function show() {
-  copyToClipboard("Email");
+  copyToClipboard(name+dash+website+at+domain+dot+com);
   document.getElementById("tooltiptext").innerHTML="Copied!";
   setTimeout(() => {  
     document.getElementById("tooltiptext").innerHTML="Click to copy"; 

@@ -83,14 +83,7 @@ a {
 
 body {
   padding: 85px 0 0;  // padding-top equal to masthead height or greater
-  background-image: url("background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: radial-gradient(circle, $light-header 10%, $dark-header 100%);
   font-family: 'Palanquin';
   font-style: normal;
   font-weight: 400;

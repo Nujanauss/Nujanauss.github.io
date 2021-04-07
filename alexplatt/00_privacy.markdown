@@ -58,7 +58,7 @@ googlewebfonts: Niramit
   
   .protect p.inner .tooltip:after {
     cursor: pointer;
-    content: "\002E" attr(domain) "\002E \006C \0069 \0061 \006D \0040 \0074 \0073 \0065 \0074";
+    content: "\002E" attr(domain) "\002E \006C \0069 \0061 \006D \006E \006F \0074 \006F \0072 \0070 \0040 \0065 \0074 \0069 \0073 \0062 \0065 \0077 \002D \0074 \0074 \0061 \006C \0070 \0078 \0065 \006C \0061";
     text-indent: 0;
     display: block;
     line-height: initial;
@@ -67,7 +67,7 @@ googlewebfonts: Niramit
 </style>
 
 # Privacy Policy
-This privacy policy describes how alexplatt.org (“I/me”) will collect, use and share your personal information.
+This privacy policy describes how nujanauss.github.io (“I/me”) will collect, use and share your personal information.
 This privacy policy may change from time to time. If this happens, I will revise the date at the bottom  of the policy.
 
 #### Summary 
@@ -88,7 +88,7 @@ If you do provide me personal data, it will be shared with no one, and in almost
 #### The policy 
 
 The General Data Protection Regulation (GDPR) is a European Union (EU) law, which protects the private information of
- EU citizens. Personal data is any identifying data, e.g. name, Email, IP address etc. 
+ EU citizens. Personal data is any identifying data, e.g. name, email, IP address etc. 
 
 This is a personal website, so data collection is kept to a minimum. For instance, 
 if you browse this website without using the contact form, I will collect no personal data from you. 
@@ -96,7 +96,7 @@ No IP address. No cookies. No analytics.
 
 #### Using the contact form 
 If you choose to use the contact form, I will collect the personal data you choose to provide to me. 
-You are not obliged to provide your Email address or any other personal data to contact me.
+You are not obliged to provide your email address or any other personal data to contact me.
  
 Any data you do provide to me will be deleted ordinarily within 30 days automatically.
 In order to respond to your comment, question or request, or for some other legal obligation, I may need to hold
@@ -124,10 +124,59 @@ They are committed to GDPR and good data practices.
 Of particular note, Basin uses servers based in the United States of America (U.S.) and Canada. As such, by using the 
  contact form you consent to the processing and transfer of your personal data in and to the U.S. and Canada. 
 
-If you chose to provide me an Email address, via the contact form, you will be sent an Email by Basin. This Email
+If you chose to provide me an email address, via the contact form, you will be sent an email by Basin. This email
 will provide a link to Basin's GDPR page, a link to change how I use your data, and a link to request I 
 permanently delete your data.
 
 <div style="text-align: right; font-style: italic;"> 
-  Last updated April, 06 2021
+  Last updated April, 07 2021
 </div>
+
+<script>
+var name = "alexplatt";
+var dash = "-";
+var website = "website";
+var at = "@";
+var domain = "protonmail";
+var dot = ".";
+var com = "com";
+function show() {
+  copyToClipboard(name+dash+website+at+domain+dot+com);
+  document.getElementById("tooltiptext").innerHTML="Copied!";
+  setTimeout(() => {  
+    document.getElementById("tooltiptext").innerHTML="Click to copy"; 
+    }, 750);
+}
+
+function copyToClipboard(text) {
+  if (!navigator.clipboard) {
+    fallback(text);
+    return;
+  }
+  navigator.clipboard.writeText(text);
+}
+
+function fallback(text) {
+  var textArea = document.createElement("textarea");
+  textArea.value = text;
+  
+  // Avoid scrolling to bottom
+  textArea.style.top = "0";
+  textArea.style.left = "0";
+  textArea.style.position = "fixed";
+
+  document.body.appendChild(textArea);
+  textArea.focus();
+  textArea.select();
+
+  try {
+    var successful = document.execCommand('copy');
+    var msg = successful ? 'successful' : 'unsuccessful';
+    console.log('Fallback: Copying text command was ' + msg);
+  } catch (err) {
+    console.error('Fallback: Oops, unable to copy', err);
+  }
+
+  document.body.removeChild(textArea);
+}
+</script>
