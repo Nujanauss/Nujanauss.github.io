@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alexplatt/_includes/contact-head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alexplatt/_layouts/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alexplatt/assets/js/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/05_contact.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/05_contact.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_includes/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/minima.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +263,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617827269808</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Moving things around a bit">
+      <created>1617827699926</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1617827699926</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Add minima scss">
+      <created>1617827832135</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1617827832135</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -285,8 +294,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Custom animated underlines in header" />
-    <MESSAGE value="Working animation on translate" />
     <MESSAGE value="Nice improvement with translation page (which now isn't)" />
     <MESSAGE value="Florian testimony" />
     <MESSAGE value="Fix footer and begin with animation of quotes" />
@@ -310,7 +317,9 @@
     <MESSAGE value="Push minima library" />
     <MESSAGE value="Changes to contact form so it stops using google analytics" />
     <MESSAGE value="Bugfix contact form check for honeypot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bugfix contact form check for honeypot" />
+    <MESSAGE value="Moving things around a bit" />
+    <MESSAGE value="Add minima scss" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add minima scss" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
@@ -325,11 +334,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1617827268470">
+    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1617827830778">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1612900616708" />
-    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1617827268470" />
+    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1617827830778" />
     <state x="121" y="90" width="1024" height="572" key="DiffContextDialog" timestamp="1617826331090">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
@@ -342,11 +351,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="142" y="40" key="SettingsEditor/0.40.1280.680@0.40.1280.680" timestamp="1612991134204" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1617747078723">
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1617827833379">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612900625726" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1617747078723" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1617827833379" />
     <state x="93" y="133" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614097295434">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
