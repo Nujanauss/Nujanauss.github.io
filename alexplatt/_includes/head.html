@@ -14,7 +14,8 @@
     var formMessage = document.getElementById("form-message");
     form.onsubmit = function(event) {
       event.preventDefault();
-      if (document.getElementById("form-name").value != null) {
+      var nameAtt = document.getElementById("form-name").value;
+      if (nameAtt || nameAtt > 0) {
         return;
       }
       var formData = new FormData(form);

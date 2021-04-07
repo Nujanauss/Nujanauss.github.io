@@ -140,7 +140,7 @@ permalink: /contact/
 
 <form action="https://usebasin.com/f/b7e6cac71fe7" method="POST" autocomplete="off" id="my-contact-form">
   <div class="form-inner">
-    <input type="name" placeholder="Name" name="name" autocomplete="off" id="form-name">
+    <input type="name" name="name" autocomplete="off" id="form-name">
     <input type="email" placeholder="Email" name="email" autocomplete="off" id="form-email">
     <textarea required 
       onkeyup="this.value = this.value.replace(/[$=+*<>]/g, '')"
@@ -163,14 +163,9 @@ permalink: /contact/
 <script>
 function ajax() {
   var xhttp = new XMLHttpRequest();
-  xhttp.responseType = "json";
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("demo").innerHTML = this.responseText;
-    }
-  };
-  
+  xhttp.responseType = "json";  
   xhttp.open("POST", "https://usebasin.com/f/b7e6cac71fe7.json", true);
+  xhttp.setRequestHeader("Accept", "application/json");
   xhttp.send();
 }
 
