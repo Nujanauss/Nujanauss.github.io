@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/alexplatt/_layouts/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/_layouts/page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexplatt/_layouts/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/assets/background.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/alexplatt/assets/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -301,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617828509649</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Attempt to find minima">
+      <created>1617828734372</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1617828734372</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -318,7 +325,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nice fade in for testimonials" />
     <MESSAGE value="Fading intro, fixed buggy testimonials" />
     <MESSAGE value="Add particles js in case I ever think of a reason to use it" />
     <MESSAGE value="Add images and update academia page" />
@@ -343,7 +349,8 @@
     <MESSAGE value="Fix minima things - probably won't build" />
     <MESSAGE value="Change config base url" />
     <MESSAGE value="Change config baseurl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change config baseurl" />
+    <MESSAGE value="Attempt to find minima" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempt to find minima" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
@@ -358,11 +365,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1617828508115">
+    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1617828732826">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1612900616708" />
-    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1617828508115" />
+    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1617828732826" />
     <state x="121" y="90" width="1024" height="572" key="DiffContextDialog" timestamp="1617826331090">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
@@ -375,11 +382,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="142" y="40" key="SettingsEditor/0.40.1280.680@0.40.1280.680" timestamp="1612991134204" />
-    <state x="210" y="100" key="Vcs.Push.Dialog.v2" timestamp="1617828511676">
+    <state x="210" y="100" key="Vcs.Push.Dialog.v2" timestamp="1617828749374">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612900625726" />
-    <state x="210" y="100" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1617828511676" />
+    <state x="210" y="100" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1617828749374" />
     <state x="93" y="133" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614097295434">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
