@@ -8,38 +8,4 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
-  <script type="text/javascript">
-    window.onload = function () {
-    var form = document.getElementById("my-contact-form");
-    var formMessage = document.getElementById("form-message");
-    form.onsubmit = function(event) {
-      event.preventDefault();
-      var nameAtt = document.getElementById("form-name").value;
-      if (nameAtt || nameAtt > 0) {
-        return;
-      }
-      var formData = new FormData(form);
-      var xhr = new XMLHttpRequest();
-      xhr.open("POST", form.action, true);
-
-      xhr.onload = function(e) {
-        console.log(xhr);
-        var response = JSON.parse(xhr.response);
-        if (xhr.status === 200) {
-          var button = document.getElementById("form-button");
-          document.getElementById("form-email").value = "";
-          document.getElementById("form-msg").value = "";
-          form.noValidate = true;
-          button.style.background = "grey";
-          button.style.cursor = "not-allowed";
-          button.disabled = true;
-          button.innerHTML = "Sent!";
-        } else {
-          formMessage.innerHTML = "Error: " + response.error + "!";
-        }
-      };
-      xhr.send(formData);
-    };
-    }
-  </script>
 </head>
