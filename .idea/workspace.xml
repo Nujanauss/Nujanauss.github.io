@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/alexplatt/minima.scss" beforeDir="false" />
-    </list>
+    <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,22 +24,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/alexplatt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/alexplatt/_layouts" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt" />
-      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\_layouts" />
-      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\_sass" />
-      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\_includes" />
-      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\fonts" />
       <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\_posts" />
       <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\_layouts" />
+      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt" />
+      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\_sass" />
+      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io\alexplatt\_includes" />
+      <recent name="C:\Users\Alex\IdeaProjects\Nujanauss.github.io" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -277,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617827832135</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Fix minima things - probably won't build">
+      <created>1617828068676</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1617828068676</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -294,7 +299,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nice improvement with translation page (which now isn't)" />
     <MESSAGE value="Florian testimony" />
     <MESSAGE value="Fix footer and begin with animation of quotes" />
     <MESSAGE value="Nice fade in for testimonials" />
@@ -319,7 +323,8 @@
     <MESSAGE value="Bugfix contact form check for honeypot" />
     <MESSAGE value="Moving things around a bit" />
     <MESSAGE value="Add minima scss" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add minima scss" />
+    <MESSAGE value="Fix minima things - probably won't build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix minima things - probably won't build" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
@@ -334,11 +339,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1617827830778">
+    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1617828067107">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1612900616708" />
-    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1617827830778" />
+    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1617828067107" />
     <state x="121" y="90" width="1024" height="572" key="DiffContextDialog" timestamp="1617826331090">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
@@ -351,11 +356,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="142" y="40" key="SettingsEditor/0.40.1280.680@0.40.1280.680" timestamp="1612991134204" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1617827833379">
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1617828071038">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612900625726" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1617827833379" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1617828071038" />
     <state x="93" y="133" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614097295434">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
