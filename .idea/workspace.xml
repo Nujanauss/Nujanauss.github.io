@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="" />
+    <list default="true" id="99943c63-b57a-49e3-8d04-e5aaee7fac80" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/alexplatt/_layouts/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/_layouts/page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/_layouts/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexplatt/assets/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/alexplatt/assets/main.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -282,7 +287,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617828068676</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Change config base url">
+      <created>1617828375093</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1617828375093</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Change config baseurl">
+      <created>1617828509649</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1617828509649</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -299,8 +318,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Florian testimony" />
-    <MESSAGE value="Fix footer and begin with animation of quotes" />
     <MESSAGE value="Nice fade in for testimonials" />
     <MESSAGE value="Fading intro, fixed buggy testimonials" />
     <MESSAGE value="Add particles js in case I ever think of a reason to use it" />
@@ -324,7 +341,9 @@
     <MESSAGE value="Moving things around a bit" />
     <MESSAGE value="Add minima scss" />
     <MESSAGE value="Fix minima things - probably won't build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix minima things - probably won't build" />
+    <MESSAGE value="Change config base url" />
+    <MESSAGE value="Change config baseurl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change config baseurl" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612813849050">
@@ -339,11 +358,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="389" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1280.680@0.40.1280.680" timestamp="1612726586600" />
-    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1617828067107">
+    <state x="173" y="40" key="CommitChangelistDialog2" timestamp="1617828508115">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1612900616708" />
-    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1617828067107" />
+    <state x="173" y="40" key="CommitChangelistDialog2/0.40.1280.680@0.40.1280.680" timestamp="1617828508115" />
     <state x="121" y="90" width="1024" height="572" key="DiffContextDialog" timestamp="1617826331090">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
@@ -356,11 +375,11 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="142" y="40" key="SettingsEditor/0.40.1280.680@0.40.1280.680" timestamp="1612991134204" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1617828071038">
+    <state x="210" y="100" key="Vcs.Push.Dialog.v2" timestamp="1617828511676">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612900625726" />
-    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1617828071038" />
+    <state x="210" y="100" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1617828511676" />
     <state x="93" y="133" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614097295434">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
