@@ -1,6 +1,7 @@
 ---
 layout: software
 title: Software
+description: Alex Platt software development experience
 permalink: /software/
 ---
 # Commercial software

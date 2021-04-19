@@ -1,6 +1,7 @@
 ---
 layout: contact
 title: Contact
+description: Alex Platt contact links
 permalink: /contact/
 ---
 

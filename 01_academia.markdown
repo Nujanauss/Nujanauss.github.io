@@ -1,6 +1,7 @@
 ---
 layout: no-title-inline
 title: Academia
+description: Alex Platt academic experience
 permalink: /academia/
 ---
 

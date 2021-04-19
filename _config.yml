@@ -20,7 +20,7 @@
 
 title: Alex Platt
 description: >- # this means to ignore newlines until "baseurl:"
-  Software developer, Academic, English fanatic
+  Personal website
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nujanauss.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -34,6 +34,8 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
+
+markdown: kramdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
