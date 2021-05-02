@@ -1,5 +1,7 @@
 ---
 layout: home
+description:
+  This is the personal website of Alex Platt. Feel free to have a look around!
 ---
 
 <style  type="text/css">
