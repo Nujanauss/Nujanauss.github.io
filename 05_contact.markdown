@@ -1,7 +1,7 @@
 ---
 layout: contact
 title: Contact
-description: Alex Platt contact links
+description: Here, you can find all my contact details. Preferably, I like the contact form - that's why I set it up! But feel free to send an Email instead
 permalink: /contact/
 ---
 

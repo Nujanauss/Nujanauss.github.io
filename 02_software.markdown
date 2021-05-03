@@ -1,7 +1,7 @@
 ---
 layout: software
 title: Software
-description: Alex Platt software development experience
+description: Following my Bachelor's degree, I worked for several years as a software developer in Germany, writing Java and Python code commercially and in a research team
 permalink: /software/
 ---
 # Commercial software

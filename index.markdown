@@ -1,7 +1,6 @@
 ---
 layout: home
-description:
-  This is the personal website of Alex Platt. Feel free to have a look around!
+description: Having graduated with Bachelor's degree in Mathematics, I spent several years as a software developer before moving into psychology. Feel free to look around!
 ---
 
 <style  type="text/css">

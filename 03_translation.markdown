@@ -1,7 +1,7 @@
 ---
 layout: translation
 title: Copy-writing
-description: Alex Platt copy-writing experience
+description: A short overview of my philosophy and experience copy-writing. I place a high value on the written word, and focus on eloquence, clarity and suitability
 permalink: /copy/
 ---
 

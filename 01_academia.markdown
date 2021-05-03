@@ -1,7 +1,7 @@
 ---
 layout: no-title-inline
 title: Academia
-description: Alex Platt academic experience
+description: After completing my Bachelor's degree in Mathematics at Nottingham, I took a short hiatus from the academic world before returning to study psychology at UCL
 permalink: /academia/
 ---
 
