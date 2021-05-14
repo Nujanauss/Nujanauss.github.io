@@ -4,11 +4,19 @@ window.addEventListener("beforeunload", function(e) {
 
 window.onscroll = function(ev) {
   var styleElem = document.head.appendChild(document.createElement("style"));
+  var im = document.querySelector(".site-title-image").style;
+  var he = document.querySelector(".site-header").style;
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.querySelector(".site-title").style.fontSize = "24px";
-    styleElem.innerHTML = ".site-title::before { height: 32px; width: 32px; }";
+    im.height = "32px";
+    im.width = "32px";
+    he.boxShadow = "none";
+    he.background = "linear-gradient(180deg, rgba(252, 252, 252, 1) 0%, rgba(252, 252, 252, 0.4) 70%, rgba(252, 252, 252, 0) 100%)";
   } else {
     document.querySelector(".site-title").style.fontSize = "28px";
-    styleElem.innerHTML = ".site-title::before { height: 36px; width: 36px; }";
+    im.height = "36px";
+    im.width = "36px";
+    he.boxShadow = "0px 0px 10px grey";
+    he.background = "radial-gradient(circle, rgba(252, 252, 252, 1) 80%, rgba(235, 235, 235, 1) 100%)";
   }
 };

@@ -59,6 +59,19 @@ a {
     }
 }
 
+.site-nav {
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+}
+
+.site-nav .page-link {
+  color: $charcoal;
+}
+
+.site-nav:hover .page-link:hover {
+  color: black;
+}
+
 .page-link:before {
   content: "";
   position: absolute;
@@ -192,12 +205,18 @@ h1, .page-heading, .post-title {
 
 .site-header {
   position: fixed;
-  background: radial-gradient(circle, $light-header 70%, $dark-header 100%);
+  background: radial-gradient(circle, $light-header 80%, $dark-header 100%);
   top: 0;
   z-index: 5;
   width: 100%;
   box-shadow: 0px 0px 10px grey;
   border-top-color: $charcoal;
+  border-bottom-style: hidden;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
   font-family: 'Goudy Bookletter 1911';
     font-style: normal;
     font-weight: 400;
@@ -210,6 +229,10 @@ h1, .page-heading, .post-title {
          url('../fonts/goudy-bookletter-1911-v10-latin-regular.svg#GoudyBookletter1911') format('svg'); /* Legacy iOS */
 }
 
+.site-title, .site-title:visited {
+ color: $charcoal;
+}
+
 .site-title {
   font-size: 28px;
   -webkit-transition: .5s;
@@ -219,21 +242,25 @@ h1, .page-heading, .post-title {
   transition: .5s;
 }
 
-.site-title::before {
+.image-wrap {
   display: inline-block;
+  height: 100%;
+  float: left;
+  line-height: 54px;
+  position: relative;
+}
+
+.site-title-image {
+  position: relative;
   vertical-align: middle;
-  width: 36px;
-  height: 36px;
   margin-right: 5px;
-  margin-bottom: 6px;
-  content: "";
-  background: url("portrait.png") no-repeat 0 0;
-  background-size: 100%;
-  -webkit-transition: .3s;
-  -moz-transition: .3s;
-  -ms-transition: .3s;
-  -o-transition: .3s;
-  transition: .3s;
+  margin-bottom: 4px;
+  width: 36px;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
 }
 
 .trigger {
@@ -247,6 +274,19 @@ h1, .page-heading, .post-title {
        url('../fonts/headland-one-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
        url('../fonts/headland-one-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/headland-one-v10-latin-regular.svg#HeadlandOne') format('svg'); /* Legacy iOS */
+
+  @media screen and (max-width: 600px) {
+    background: rgba(252,252,252,0.9);
+    box-shadow: 0px 0px 5px rgba(0,0,0,.2);
+  }
+}
+
+a.post-link {
+  color: $charcoal;
+}
+
+a.post-link:hover {
+  color: black;
 }
 
 /* palanquin-regular - latin */
