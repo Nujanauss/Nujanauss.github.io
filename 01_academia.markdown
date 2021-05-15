@@ -7,20 +7,51 @@ permalink: /academia/
 
 <style>
 .logo {
-   display: flex;
-   align-items:center;
+   display: grid;
+   grid-template-columns: auto 1fr;
+   grid-column-gap: 2px;
+   justify-items: left;
+   align-content: center;
 }
 
-a img {
+.logo h1 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 0;
+  left: 20px;
+}
+
+.uni {
+  display: flex;
+  justify-content: left;
+  align-items: center;
   width: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  
+  .uni {
+    width: 120px;
+    left: 7px;
+    bottom: 10px;
+  }
+  
+  .logo h1 {
+    left: 7px;
+  }
 }
 </style>
 
 <div class="logo">
-<a href="https://www.ucl.ac.uk/">
+<a class="uni" href="https://www.ucl.ac.uk/">
    <img src="..//assets/ucl.png" alt="UCL">
 </a>
-<h1 style="margin-bottom:0">MSc. Psychological Sciences</h1>
+<h1>MSc. Psychological Sciences</h1>
 </div>
 
 <br>
@@ -38,7 +69,7 @@ Graduate Basis for Chartered Membership with the [British Psychological Society]
 <br>
 
 <div class="logo">
-<a href="https://www.nottingham.ac.uk/">
+<a class="uni" href="https://www.nottingham.ac.uk/">
    <img src="..//assets/notts.png" alt="University of Nottingham">
 </a>
 <h1 style="margin-bottom:0;" >BSc. Mathematics (International Study)</h1>
