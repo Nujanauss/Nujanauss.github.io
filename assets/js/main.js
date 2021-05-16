@@ -11,7 +11,7 @@ window.onscroll = function(ev) {
     im.height = "32px";
     im.width = "32px";
     he.boxShadow = "none";
-    he.background = "linear-gradient(180deg, rgba(252, 252, 252, 1) 0%, rgba(252, 252, 252, 0.4) 70%, rgba(252, 252, 252, 0) 100%)";
+    he.background = "linear-gradient(180deg, rgba(252, 252, 252, 1) 0%, rgba(252, 252, 252, 0.6) 70%, rgba(252, 252, 252, 0.4) 85%, rgba(252, 252, 252, 0.2) 93%, rgba(252, 252, 252, 0) 100%)";
   } else {
     document.querySelector(".site-title").style.fontSize = "28px";
     im.height = "36px";
