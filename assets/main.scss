@@ -102,16 +102,8 @@ a {
 body {
   padding: 85px 0 0;  // padding-top equal to masthead height or greater
   background: $light-header;
+  font-display: swap;
   font-family: 'Palanquin';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/palanquin-v6-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/palanquin-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/palanquin-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/palanquin-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/palanquin-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/palanquin-v6-latin-regular.svg#Palanquin') format('svg'); /* Legacy iOS */
 }
 
 .show {
@@ -169,16 +161,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 h1, .page-heading, .post-title {
   font-size: 22px;
+  font-display: swap;
   font-family: 'Headland One';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/headland-one-v10-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/headland-one-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/headland-one-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/headland-one-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/headland-one-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/headland-one-v10-latin-regular.svg#HeadlandOne') format('svg'); /* Legacy iOS */
 }
 
 .post-content h2 {
@@ -187,16 +171,8 @@ h1, .page-heading, .post-title {
 
 .post-link {
   font-size: 20px;
+  font-display: swap;
   font-family: 'Headland One';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/headland-one-v10-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/headland-one-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/headland-one-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/headland-one-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/headland-one-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/headland-one-v10-latin-regular.svg#HeadlandOne') format('svg'); /* Legacy iOS */
 }
 
 .site-header {
@@ -213,16 +189,8 @@ h1, .page-heading, .post-title {
   -ms-transition: .5s;
   -o-transition: .5s;
   transition: .5s;
+  font-display: swap;
   font-family: 'Goudy Bookletter 1911';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/goudy-bookletter-1911-v10-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/goudy-bookletter-1911-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/goudy-bookletter-1911-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/goudy-bookletter-1911-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/goudy-bookletter-1911-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/goudy-bookletter-1911-v10-latin-regular.svg#GoudyBookletter1911') format('svg'); /* Legacy iOS */
 }
 
 .site-title, .site-title:visited {
@@ -266,16 +234,9 @@ h1, .page-heading, .post-title {
 }
 
 .trigger {
-  font-family: 'Headland One';
-  font-style: normal;
+  font-display: swap;
   font-weight: 300;
-  src: url('../fonts/headland-one-v10-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/headland-one-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/headland-one-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/headland-one-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/headland-one-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/headland-one-v10-latin-regular.svg#HeadlandOne') format('svg'); /* Legacy iOS */
+  font-family: 'Headland One';
 
   @media screen and (max-width: 600px) {
     background: rgba(252,252,252,0.9);
